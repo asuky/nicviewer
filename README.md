@@ -4,7 +4,9 @@
 
 ** Windows (64bit) 限定です **
 
-* npm run ele で動作
+* 下記で動作
+    $ npm install
+    $ npm run ele
 * npm run build で実行可能形式で出力 (electron-packager 利用)
 
 ## ツールについて
