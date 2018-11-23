@@ -7,9 +7,10 @@
 * 下記で動作
 ```
 $ npm install
+$ npm run dev
 $ npm run ele
 ```
-* npm run build で実行可能形式で出力 (electron-packager 利用)
+* npm install 後、npm run build で実行可能形式で出力 (electron-packager 利用)
 
 ## ツールについて
 
