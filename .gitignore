@@ -1,0 +1,11 @@
+# node
+## node
+node_modules
+dist
+build
+
+## packager
+nicviewer*
+
+# VScode
+.vscode
