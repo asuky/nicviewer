@@ -10,9 +10,7 @@ import allSagas from './sagas/allsagas';
 
 import MainUI from './components/MainUI';
 
-import { startKeyLogging, 
-         stopKeyLogging,
-         getNetworkStatus } from './actions/actions';
+import { getNetworkStatus } from './actions/actions';
 
 import './css/main.css';
 
@@ -43,8 +41,6 @@ function mapStateToProps(state) {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        startKeyLogging: (event) => { dispatch(startKeyLogging(event)) },
-        stopKeyLogging: (event) => { dispatch(stopKeyLogging(event)) },
         getNetworkStatus: (event) => { dispatch(getNetworkStatus(event)) }
     }
 }
